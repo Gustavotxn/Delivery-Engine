@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# Delivery Engine
 
-## Project info
+O **Delivery Engine** é um sistema criado para padronizar, analisar e organizar operações de delivery, oferecendo ferramentas visuais e funcionais para gerenciamento, auditoria e melhoria de desempenho. O foco do sistema é permitir análise eficiente de pedidos, processos internos, etapas de entrega e indicadores de performance.
 
-**URL**: https://lovable.dev/projects/99615ff4-37df-4923-970b-f00166f3ef67
+## 🚀 Funcionalidades
 
-## How can I edit this code?
+* **Dashboard interativo** com dados gerais e métricas do delivery.
+* **Organização de etapas** do fluxo de pedidos (preparo, envio, entrega).
+* **Análises visuais** para identificar gargalos e oportunidades.
+* **Sistema responsivo** e adaptado para dispositivos móveis.
+* **Interface moderna**, baseada nas cores e identidade de apps de delivery (inspirado no iFood).
 
-There are several ways of editing your application.
+## 🛠️ Tecnologias Utilizadas
 
-**Use Lovable**
+* **React / Next.js**
+* **TailwindCSS**
+* **Shadcn UI**
+* **Lucide Icons**
+* **JavaScript / TypeScript**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/99615ff4-37df-4923-970b-f00166f3ef67) and start prompting.
+## 📁 Estrutura do Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+Delivery-Engine/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── lib/
+│   └── app/
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+## ⚙️ Como Rodar o Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Clone o repositório:
 
-**Use GitHub Codespaces**
+   ```bash
+   git clone https://github.com/GabrielP1909/Delivery-Engine.git
+   ```
+2. Acesse a pasta:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   cd Delivery-Engine
+   ```
+3. Instale as dependências:
 
-## What technologies are used for this project?
+   ```bash
+   npm install
+   ```
+4. Rode o projeto:
 
-This project is built with:
+   ```bash
+   npm run dev
+   ```
+5. Abra no navegador:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```
+   http://localhost:3000
+   ```
 
-## How can I deploy this project?
+## 🎨 Design e Identidade
 
-Simply open [Lovable](https://lovable.dev/projects/99615ff4-37df-4923-970b-f00166f3ef67) and click on Share -> Publish.
+O layout do sistema segue uma abordagem moderna, utilizando:
 
-## Can I connect a custom domain to my Lovable project?
+* Tons de **vermelho**, **preto** e **branco** (inspirados no iFood);
+* Ícones minimalistas;
+* Tipografia limpa e eficiente;
+* Componentes responsivos que se adaptam automaticamente ao celular.
 
-Yes, you can!
+## 📌 Objetivo do Projeto
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Criar um sistema visual e funcional para auditoria e análise de **deliverys**, permitindo otimizar processos internos e melhorar desempenho com base em dados.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou enviar **pull requests**.
+
+## 📄 Licença
+
+Este projeto é de uso pessoal do criador e pode ser adaptado conforme necessidade.
