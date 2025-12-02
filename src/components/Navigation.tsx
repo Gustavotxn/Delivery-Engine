@@ -64,7 +64,7 @@ export function Navigation() {
           >
 <div className="flex items-center justify-center">
   <img
-    src="/imagens/deliveryLogo.png"
+    src="/Delivery-Engine/public/imagens/deliverylogo.png" alt="Logo"
      className="w-14 h-14 md:w-[120px] md:h-[120px] object-contain"
   />
 </div>

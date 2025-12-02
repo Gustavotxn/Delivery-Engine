@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Gabriel Perugorria",
     role: "Lógica & Fluxogramas",
-    avatar: "/imagens/nevesterno.jpg",
+    avatar: "public/imagens/nevesterno.jpg",
     color: "from-red-600 to-orange-500",
     skills: ["Lógica de Programação", "Algoritmos", "Documentação"],
     icon: Code,
@@ -14,7 +14,7 @@ const teamMembers = [
   {
     name: "Murilo Abreu",
     role: "Banco de Dados & Backend",
-    avatar: "/imagens/abreu.jpg",
+    avatar: "public//imagens/abreu.jpg",
     color: "from-red-600 to-orange-500",
     skills: ["Modelagem de Dados", "SQL", "DER"],
     icon: Database,
@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: "Gustavo Teixeira",
     role: "Interface & Design",
-    avatar: "/imagens/castrin.jpg",
+    avatar: "public//imagens/castrin.jpg",
    color: "from-red-600 to-orange-500",
     skills: ["UI/UX", "Mockups", "Front-end"],
     icon: Palette,
