@@ -83,3 +83,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** ou en
 Este projeto é de uso pessoal do criador e pode ser adaptado conforme necessidade.
 
 
+
